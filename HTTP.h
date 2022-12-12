@@ -1,7 +1,7 @@
 #ifndef HTTP_h
 #define HTTP_h
 
-enum HTTPMethod { GET, POST, HEAD, PUT };
+enum class HTTPMethod { GET, POST, HEAD, PUT };
 
 const unsigned int MAX_REQUEST_SIZE = 1536;
 const unsigned int MAX_REQUEST_BODY_SIZE = 256;
