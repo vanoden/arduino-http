@@ -26,7 +26,7 @@ class HTTPRequest {
 	private:
 		char _uri[MAX_URI_SIZE] = "/";
 		char _endpoint[MAX_ENDPOINT_SIZE];
-		HTTPMethod _method = POST;
+		int _method = HTTP_POST;
 		HTTPHeader _headers[MAX_HEADER_CNT];
 		int _headerCnt = 0;
 		HTTPCookie _cookies[MAX_COOKIE_CNT];

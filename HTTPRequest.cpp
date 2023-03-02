@@ -27,16 +27,16 @@ string HTTPRequest::uri() {
 
 const string HTTPRequest::method() {
 	switch (_method) {
-		case GET:
+		case HTTP_GET:
 			return "GET";
 			break;
-		case PUT:
+		case HTTP_PUT:
 			return "PUT";
 			break;
-		case POST:
+		case HTTP_POST:
 			return "POST";
 			break;
-		case HEAD:
+		case HTTP_HEAD:
 			return "HEAD";
 			break;
 		default:
